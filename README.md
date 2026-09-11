@@ -25,7 +25,6 @@ Your phone gets a full-blown attitude upgrade powered by iconic Malayalam movie 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-For Software:
 - Languages: Kotlin, XML
 - Frameworks: Android SDK (API 34), Jetpack Compose
 - Libraries:
@@ -103,8 +102,8 @@ graph TD
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- Muhammed Risvan: Builder
-- Atheendradev CV: Researcher
+- Muhammed Risvan: Built the app - directed the technical implementation and tested.
+- Atheendradev CV: Shaped the comedic identity — selected the Malayalam dialogues, and wrote the documentation.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
