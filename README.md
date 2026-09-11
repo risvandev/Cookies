@@ -62,15 +62,11 @@ cd Cookies
 2. Wait for Gradle sync to complete.
 3. Connect your Android device (or launch an Emulator) and click **Run** (`Shift + F10`), or generate the APK from **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
-# Screenshots
-![Phone Soul Dashboard](screenshort/Image_1.jpeg)
-*LivingPhone Dashboard: Soul status control and background longevity configuration*
-
-![Voice Test Chamber](screenshort/image_2.jpeg)
-*Voice Test Chamber: Preview dialogue reactions for Battery levels, Shake, Ignored, Late Night, and Alarms*
-
-![Anxious Alarm](screenshort/image_3.jpeg)
-*Anxious Alarm: Countdown timer that nags, panics, and hypes you up with dramatic alerts*
+<p align="center">
+  <img src="screenshort/Image_1.jpeg" width="160" alt="Phone Soul Dashboard"/>
+  <img src="screenshort/image_2.jpeg" width="160" alt="Voice Test Chamber"/>
+  <img src="screenshort/image_3.jpeg" width="160" alt="Anxious Alarm"/>
+</p>
 
 # Diagrams
 ```mermaid
