@@ -367,11 +367,20 @@ fun SoulDashboardScreen(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            OutlinedButton(onClick = { onTestAudio(EventType.LATE_NIGHT) }, modifier = Modifier.weight(1f)) {
-                Text("🌙 Late Night")
-            }
             OutlinedButton(onClick = { onTestAudio(EventType.SCREEN_ON_IDLE_PICKUP) }, modifier = Modifier.weight(1f)) {
                 Text("📱 Pickup")
+            }
+            OutlinedButton(onClick = { onTestAudio(EventType.SCREEN_OFF_IGNORED) }, modifier = Modifier.weight(1f)) {
+                Text("😒 Ignored")
+            }
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            OutlinedButton(onClick = { onTestAudio(EventType.LATE_NIGHT) }, modifier = Modifier.weight(1f)) {
+                Text("🌙 Late Night")
             }
         }
         Spacer(modifier = Modifier.height(8.dp))
