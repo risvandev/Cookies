@@ -7,6 +7,7 @@ raw voice_battery_5
 raw voice_charger_connected
 raw voice_charger_disconnected
 raw voice_ignored
+raw voice_late_night
 raw voice_overheating
 raw voice_pickup
 raw voice_shake

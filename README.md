@@ -17,10 +17,10 @@
 [2-3 lines about what your project does]
 
 ### The Problem (that doesn't exist)
-[some people (or perhaps just me) don't really glace at their battery percentage, that leads to some issues for when you need the phone but it's nearly out of charge.... completely your own fault for not being responsible btw]
+some people (or perhaps just me) don't really glance at their battery percentage, that leads to some issues for when you need the phone but it's nearly out of charge.... completely your own fault for not being responsible btw
 
 ### The Solution (that nobody asked for)
-[the phone is about to get a behavioural upgrade based on battery percentage, it speaks in malayalam movie dialogues when the battery reaches 20,15,10,5,1 and some additional fun stuff in general]
+the phone is about to get a behavioural upgrade based on battery percentage, it speaks in malayalam movie dialogues when the battery reaches 20,15,10,5,1 and some additional fun stuff in general
 
 ## Technical Details
 ### Technologies/Components Used

@@ -18,7 +18,12 @@ enum class EventType {
     OVERHEATING,
     SHAKE_DETECTED,
     SCREEN_ON_IDLE_PICKUP,
-    SCREEN_OFF_IGNORED
+    SCREEN_OFF_IGNORED,
+    LATE_NIGHT,
+    ALARM_STARTED,
+    ALARM_TWO_THIRDS,
+    ALARM_FINAL_5_SEC,
+    ALARM_DONE
 }
 
 class PersonalityEngine(private val context: Context) {
@@ -46,6 +51,11 @@ class PersonalityEngine(private val context: Context) {
             EventType.SHAKE_DETECTED -> "voice_shake"
             EventType.SCREEN_ON_IDLE_PICKUP -> "voice_pickup"
             EventType.SCREEN_OFF_IGNORED -> "voice_ignored"
+            EventType.LATE_NIGHT -> "voice_late_night"
+            EventType.ALARM_STARTED -> "voice_alarm_started"
+            EventType.ALARM_TWO_THIRDS -> "voice_alarm_twothirds"
+            EventType.ALARM_FINAL_5_SEC -> "voice_alarm_final"
+            EventType.ALARM_DONE -> "voice_alarm_done"
         }
 
         playAudio(audioFileName)
