@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+drawable livingphone_logo
 raw voice_battery_1
 raw voice_battery_10
 raw voice_battery_20

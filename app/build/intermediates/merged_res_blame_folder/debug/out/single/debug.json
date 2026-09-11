@@ -8,10 +8,6 @@
         "source": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-main-42:\\raw\\voice_charger_connected.mpeg"
     },
     {
-        "merged": "com.tinkerhub.livingphone.app-merged_res-40:/raw_voice_late_night.wav.flat",
-        "source": "com.tinkerhub.livingphone.app-main-42:/raw/voice_late_night.wav"
-    },
-    {
         "merged": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-merged_res-40:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-main-42:\\xml\\backup_rules.xml"
     },
@@ -36,8 +32,16 @@
         "source": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-main-42:\\raw\\voice_shake.mp3"
     },
     {
+        "merged": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-merged_res-40:\\raw_voice_late_night.wav.flat",
+        "source": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-main-42:\\raw\\voice_late_night.wav"
+    },
+    {
         "merged": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-merged_res-40:\\raw_voice_shake.mpeg.flat",
         "source": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-main-42:\\raw\\voice_shake.mpeg"
+    },
+    {
+        "merged": "com.tinkerhub.livingphone.app-merged_res-40:/drawable_livingphone_logo.png.flat",
+        "source": "com.tinkerhub.livingphone.app-main-42:/drawable/livingphone_logo.png"
     },
     {
         "merged": "C:\\Users\\muham\\.gradle\\daemon\\8.5\\com.tinkerhub.livingphone.app-merged_res-40:\\raw_voice_charger_disconnected.mpeg.flat",
