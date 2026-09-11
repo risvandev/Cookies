@@ -21,8 +21,14 @@ class LivingPhoneService : Service() {
     private lateinit var motionSensorManager: MotionSensorManager
     private lateinit var screenStateTracker: ScreenStateTracker
 
+    companion object {
+        var isRunning: Boolean = false
+            internal set
+    }
+
     override fun onCreate() {
         super.onCreate()
+        isRunning = true
         
         engine = PersonalityEngine(this)
         powerStateManager = PowerStateManager(this, engine)
@@ -41,6 +47,7 @@ class LivingPhoneService : Service() {
 
     override fun onDestroy() {
         super.onDestroy()
+        isRunning = false
         powerStateManager.stop()
         motionSensorManager.stop()
         screenStateTracker.stop()
