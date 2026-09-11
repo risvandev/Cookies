@@ -14,7 +14,7 @@
 - Member 2: Muhammed Risvan - AISAT
 
 ### Project Description
-[2-3 lines about what your project does]
+LivingPhone turns your Android device into a dramatic, sentient companion that reacts to how you treat it. It complains in iconic Malayalam dialogues during low battery, reacts to physical drops and shakes, nags you for late-night scrolling, and hypes you up with an anxious countdown alarm.
 
 ### The Problem (that doesn't exist)
 some people (or perhaps just me) don't really glance at their battery percentage, that leads to some issues for when you need the phone but it's nearly out of charge.... completely your own fault for not being responsible btw
@@ -39,10 +39,31 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-APP INSTALL
+### Option A: Quick Install (Direct APK - No setup required)
+1. Download the latest **`LivingPhone.apk`** from the [Releases](https://github.com/risvandev/Cookies/releases) section.
+2. Open the downloaded APK on your Android device.
+3. Allow "Install from unknown sources" if prompted, then tap **Install**.
+
+### Option B: Build from Source (Developers)
+**Prerequisites:**
+- Android Studio (Koala / Ladybug or newer)
+- JDK 17+ and Android SDK (API 34)
+
+```bash
+git clone https://github.com/risvandev/Cookies.git
+cd Cookies
+```
 
 # Run
-INSTALL THE APK
+### For Regular Users:
+1. Open the **LivingPhone** app from your app drawer.
+2. Grant notification and battery optimization exemption permissions when prompted so the background soul can run smoothly.
+3. Tap **Start Phone Soul** or head over to **Anxious Alarm**!
+
+### For Developers:
+1. Open the cloned folder in **Android Studio**.
+2. Wait for Gradle sync to complete.
+3. Connect your Android device (or launch an Emulator) and click **Run** (`Shift + F10`), or generate the APK from **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
 ### Project Documentation
 For Software:
