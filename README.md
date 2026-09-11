@@ -40,7 +40,7 @@ For Software:
 For Software:
 # Installation
 ### Option A: Quick Install (Direct APK - No setup required)
-1. Download the latest **`LivingPhone.apk`** from the [Releases](https://github.com/risvandev/Cookies/releases) section.
+1. Download the latest [**LivingPhone.apk**](https://github.com/risvandev/Cookies/releases/download/v1.0.0/LivingPhone.apk) from the [v1.0.0 Release](https://github.com/risvandev/Cookies/releases/latest).
 2. Open the downloaded APK on your Android device.
 3. Allow "Install from unknown sources" if prompted, then tap **Install**.
 
@@ -91,9 +91,8 @@ For Software:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Muhammed Risvan: Builder
+- Atheendradev CV: Researcher
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
