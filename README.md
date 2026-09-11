@@ -2,7 +2,7 @@
 
 
 
-# LivingPhone 🎯
+# LivingPhone
 
 
 ## Basic Details

@@ -49,7 +49,19 @@ class MainActivity : ComponentActivity() {
         updateStates()
 
         setContent {
-            MaterialTheme {
+            val offWhiteBackground = Color(0xFFFAF9F6)
+            val primaryColor = Color(0xFF2C3E50)
+            val customColorScheme = lightColorScheme(
+                primary = primaryColor,
+                onPrimary = Color.White,
+                secondary = Color(0xFF7F8C8D),
+                background = offWhiteBackground,
+                surface = Color.White,
+                surfaceVariant = Color(0xFFF1F3F5),
+                onSurface = Color(0xFF212529)
+            )
+
+            MaterialTheme(colorScheme = customColorScheme) {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -143,17 +155,18 @@ fun MainAppContainer(
     Column(modifier = Modifier.fillMaxSize()) {
         TabRow(
             selectedTabIndex = selectedTab,
-            containerColor = MaterialTheme.colorScheme.surfaceVariant
+            containerColor = MaterialTheme.colorScheme.surface,
+            contentColor = MaterialTheme.colorScheme.primary
         ) {
             Tab(
                 selected = selectedTab == 0,
                 onClick = { selectedTab = 0 },
-                text = { Text("Phone Soul 👻", fontWeight = FontWeight.Bold) }
+                text = { Text("Phone Soul 👻", fontWeight = FontWeight.SemiBold) }
             )
             Tab(
                 selected = selectedTab == 1,
                 onClick = { selectedTab = 1 },
-                text = { Text("Anxious Alarm ⏰", fontWeight = FontWeight.Bold) }
+                text = { Text("Anxious Alarm ⏰", fontWeight = FontWeight.SemiBold) }
             )
         }
 
@@ -205,9 +218,10 @@ fun SoulDashboardScreen(
         Spacer(modifier = Modifier.height(8.dp))
 
         Text(
-            text = "LivingPhone 🎯",
-            style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold
+            text = "LivingPhone",
+            style = MaterialTheme.typography.headlineLarge,
+            fontWeight = FontWeight.ExtraBold,
+            color = MaterialTheme.colorScheme.primary
         )
         Text(
             text = "Sentient Behaviour System",
