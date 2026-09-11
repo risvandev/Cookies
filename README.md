@@ -2,16 +2,16 @@
 
 
 
-# [Project Name] 🎯
+# Cookies 🎯
 
 
 ## Basic Details
-### Team Name: [Cookies]
+### Team Name: Cookies
 
 
 ### Team Members
-- Member 1: [Atheendradev CV] - [AISAT]
-- Member 2: [Muhammed Risvan] - [AISAT]
+- Member 1: Atheendradev CV - AISAT
+- Member 2: Muhammed Risvan - AISAT
 
 ### Project Description
 [2-3 lines about what your project does]
@@ -25,22 +25,24 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Kotlin, XMLKotlin]
-- [Android SDK (API 34), Jetpack Compose]
-- [- Jetpack Compose Material 3 (UI & Animations)
-   - AndroidX Core KTX & Lifecycle Runtime KTX
-   - AndroidX Activity Compose
-   - Android Sensor Framework (SensorManager, Accelerometer/Gyroscope APIs)
-   - Android Media Framework (MediaPlayer for real-time audio triggers)]
-- [Android Studio, Gradle, Git, GitHub]
+For Software:
+- Languages: Kotlin, XML
+- Frameworks: Android SDK (API 34), Jetpack Compose
+- Libraries:
+  - Jetpack Compose Material 3 (UI & Animations)
+  - AndroidX Core KTX & Lifecycle Runtime KTX
+  - AndroidX Activity Compose
+  - Android Sensor Framework (SensorManager, Accelerometer/Gyroscope APIs)
+  - Android Media Framework (MediaPlayer for real-time audio triggers)
+- Tools: Android Studio, Gradle, Git, GitHub
 
 ### Implementation
 For Software:
 # Installation
-[APP INSTALL]
+APP INSTALL
 
 # Run
-[INSTALL THE APK]
+INSTALL THE APK
 
 ### Project Documentation
 For Software:
