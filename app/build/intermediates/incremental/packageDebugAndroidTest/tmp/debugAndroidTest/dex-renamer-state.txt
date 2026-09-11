@@ -1,4 +1,0 @@
-#Fri Sep 11 14:03:09 IST 2026
-base.0=E\:\\Cookies\\Cookies\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-path.0=0/classes.dex
-renamed.0=classes.dex

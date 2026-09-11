@@ -9,6 +9,7 @@ import android.os.PowerManager
 import android.provider.Settings
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -21,10 +22,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.tinkerhub.livingphone.R
 import com.tinkerhub.livingphone.alarm.AlarmState
 import com.tinkerhub.livingphone.alarm.LivingAlarmManager
 import com.tinkerhub.livingphone.personality.EventType
@@ -191,6 +194,16 @@ fun SoulDashboardScreen(
             .padding(20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.livingphone_logo),
+            contentDescription = "LivingPhone Logo",
+            modifier = Modifier
+                .size(72.dp)
+                .clip(RoundedCornerShape(16.dp))
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
         Text(
             text = "LivingPhone 🎯",
             style = MaterialTheme.typography.headlineMedium,
@@ -447,7 +460,7 @@ fun AlarmScreen(
                 if (alarmState.isRunning) {
                     Spacer(modifier = Modifier.height(12.dp))
                     LinearProgressIndicator(
-                        progress = { alarmState.progress },
+                        progress = alarmState.progress,
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(8.dp)

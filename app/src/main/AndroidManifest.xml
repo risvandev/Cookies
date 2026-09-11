@@ -14,9 +14,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@android:drawable/sym_def_app_icon"
+        android:icon="@drawable/livingphone_logo"
         android:label="LivingPhone"
-        android:roundIcon="@android:drawable/sym_def_app_icon"
+        android:roundIcon="@drawable/livingphone_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.LivingPhone"
         tools:targetApi="31">
