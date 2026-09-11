@@ -346,6 +346,18 @@ fun SoulDashboardScreen(
             OutlinedButton(onClick = { onTestAudio(EventType.BATTERY_LEVEL_20) }, modifier = Modifier.weight(1f)) {
                 Text("Bat 20%")
             }
+            OutlinedButton(onClick = { onTestAudio(EventType.BATTERY_LEVEL_10) }, modifier = Modifier.weight(1f)) {
+                Text("Bat 10%")
+            }
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            OutlinedButton(onClick = { onTestAudio(EventType.BATTERY_LEVEL_5) }, modifier = Modifier.weight(1f)) {
+                Text("Bat 5%")
+            }
             OutlinedButton(onClick = { onTestAudio(EventType.BATTERY_LEVEL_1) }, modifier = Modifier.weight(1f)) {
                 Text("Bat 1%")
             }
