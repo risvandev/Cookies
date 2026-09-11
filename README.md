@@ -6,43 +6,41 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Cookies]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Atheendradev CV] - [AISAT]
+- Member 2: [Muhammed Risvan] - [AISAT]
 
 ### Project Description
 [2-3 lines about what your project does]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[some people (or perhaps just me) don't really glace at their battery percentage, that leads to some issues for when you need the phone but it's nearly out of charge.... completely your own fault for not being responsible btw]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[the phone is about to get a behavioural upgrade based on battery percentage, it speaks in malayalam movie dialogues when the battery reaches 20,15,10,5,1 and some additional fun stuff in general]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [Kotlin, XMLKotlin]
+- [Android SDK (API 34), Jetpack Compose]
+- [- Jetpack Compose Material 3 (UI & Animations)
+   - AndroidX Core KTX & Lifecycle Runtime KTX
+   - AndroidX Activity Compose
+   - Android Sensor Framework (SensorManager, Accelerometer/Gyroscope APIs)
+   - Android Media Framework (MediaPlayer for real-time audio triggers)]
+- [Android Studio, Gradle, Git, GitHub]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+[APP INSTALL]
 
 # Run
-[commands]
+[INSTALL THE APK]
 
 ### Project Documentation
 For Software:
@@ -60,25 +58,6 @@ For Software:
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
