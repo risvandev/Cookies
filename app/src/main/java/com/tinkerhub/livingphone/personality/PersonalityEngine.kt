@@ -63,13 +63,18 @@ class PersonalityEngine(private val context: Context) {
     }
 
     private fun playAudio(fileName: String) {
-        // Try to find the resource ID dynamically so compilation doesn't fail if file is missing
         val resId = context.resources.getIdentifier(fileName, "raw", context.packageName)
         if (resId != 0) {
             try {
                 mediaPlayer?.release()
-                mediaPlayer = MediaPlayer.create(context, resId)
-                mediaPlayer?.start()
+                mediaPlayer = MediaPlayer.create(context, resId)?.apply {
+                    setWakeMode(context, android.os.PowerManager.PARTIAL_WAKE_LOCK)
+                    setOnCompletionListener { mp ->
+                        mp.release()
+                    }
+                    start()
+                }
+                Log.d("LivingPhone", "Playing audio: $fileName (resId=$resId)")
             } catch (e: Exception) {
                 Log.e("LivingPhone", "Failed to play audio $fileName", e)
             }
