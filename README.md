@@ -62,6 +62,7 @@ cd Cookies
 2. Wait for Gradle sync to complete.
 3. Connect your Android device (or launch an Emulator) and click **Run** (`Shift + F10`), or generate the APK from **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
+# Screenshots
 <p align="center">
   <img src="screenshort/Image_1.jpeg" width="160" alt="Phone Soul Dashboard"/>
   <img src="screenshort/image_2.jpeg" width="160" alt="Voice Test Chamber"/>
