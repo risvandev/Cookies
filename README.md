@@ -63,22 +63,36 @@ cd Cookies
 2. Wait for Gradle sync to complete.
 3. Connect your Android device (or launch an Emulator) and click **Run** (`Shift + F10`), or generate the APK from **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
-### Project Documentation
-For Software:
+# Screenshots
+![Phone Soul Dashboard](screenshort/Image_1.jpeg)
+*LivingPhone Dashboard: Soul status control and background longevity configuration*
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Voice Test Chamber](screenshort/image_2.jpeg)
+*Voice Test Chamber: Preview dialogue reactions for Battery levels, Shake, Ignored, Late Night, and Alarms*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Anxious Alarm](screenshort/image_3.jpeg)
+*Anxious Alarm: Countdown timer that nags, panics, and hypes you up with dramatic alerts*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+```mermaid
+graph TD
+    UI[MainActivity UI] -->|Starts Service| Service(LivingPhoneService)
+    UI -->|Manages| Alarm[LivingAlarmManager]
+    
+    Service -->|Initializes| Sensors{Hardware Sensors}
+    Sensors -->|Battery & Power| Power[PowerStateManager]
+    Sensors -->|Accelerometer & Temp| Motion[MotionSensorManager]
+    Sensors -->|Screen State| Screen[ScreenStateTracker]
+    
+    Power -->|Event Trigger| Engine(PersonalityEngine)
+    Motion -->|Event Trigger| Engine
+    Screen -->|Event Trigger| Engine
+    Alarm -->|Event Trigger| Engine
+    
+    Engine -->|Plays Audio| Media[MediaPlayer]
+    Engine -->|Vibrates| Haptics[Vibrator]
+```
+*LivingPhone Architecture: UI and background sensors feed events into the PersonalityEngine to trigger dramatic audio reactions.*
 
 ### Project Demo
 # Video
